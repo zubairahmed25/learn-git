@@ -127,17 +127,64 @@ In this step, we will push code to GitHub.
     </details>
 * Go to your repository on GitHub and see your updates.
 
-##Mini-Project 2: DevMountain Project
-* Now what we're going to do is walk through how you would normally treat a day's project here at DevMountain. 
+## Mini-Project 2: DevMountain Project
 
-### Step 1: Fork the Repo
-First, you'll want to 'fork' the repo. On the top right of this page, you should see a button that says 'fork.' This will essentially copy all of the code from this repository, but make it as a new repository under your account. As you can imagine, you can't push directly to the DevMountain repo, because that would not be secure for DevMountain (anyone could make any changes they want). What you should do is create a fork of this repo, then push to your own fork because it's under your own account.
+## Step 1
 
-### Step 2: Clone the Fork
-* Once you've forked this repo, you're going to want to clone your forked repository. Go to your freshly forked page and copy the url (click on the green "clone or download" button on the right). Then, head over to your terminal and type `git clone [Repository URL]`, replacing Repositry URL with the URL you just grabbed from GitHub. This takes what's on GitHub and essentially downloads it so you can now make changes to it on your local computer.
-* Once you've cloned your fork, open up your fork in Sublime Text and make a change. Once you've made a change head over to your terminal and type `git status`, you should see that a file has been changed. If you see the file, run through the steps outlined above in Mini-Project 1 (status, diff, add, commit, push). Note that when you run `git push origin master` in this repository, origin is already pointing to your forked repo since you used `git clone`. Unlike the last step, you don't need to tell your computer where to push your code because git already knows.
+### Summary
 
-##Mini-Project 3: Group Project
+In this step, we will fork this tutorial repository.
+
+### Instructions
+
+* On this current GitHub repository, scroll to the top and look for a button that says `fork`.
+* Click the `fork` button`.
+  * <details>
+
+    <summary> What does this do? </summary>
+
+    <br />
+
+    This will essentially copy all of the code from this repository, but make it as a new repository under your account. As you can imagine, you can't push directly to the DevMountain repo, because that would not be secure for DevMountain (anyone could make any changes they want). What you should do is create a fork of this repo, then push to your own fork because it's under your own account.
+
+    </details>
+
+## Step 2
+
+### Summary
+
+In this step, we will take the forked repository and clone it down to our machine.
+
+### Instructions
+
+* Go to your forked repository on GitHub. It should appear under `Your repositories` which is next to the `New repository` button.
+* Click on the green `clone or download` button and copy the URL.
+* Open a terminal window and navigate to your Desktop.
+* Run `git clone [the url you copied]`.
+  * <details>
+
+    <summary> What does this do? </summary>
+
+    <br />
+
+    This takes what's on GitHub and essentially downloads it so you can now make changes to it on your local computer.
+
+    </details>
+
+## Step 3
+
+### Summary
+
+In this step, we will make changes to our clone and push them to GitHub.
+
+### Instructions
+
+* Open the folder in your coding IDE.
+* Make a change in a file.
+* Run through the steps outlined in `Step 3` of the first project ( status, diff, add, commit, push ).
+  * Since you've clonved this repository, it is already pointing to your forked version. Therefore you don't need to tell your computer where to push the code.
+
+## Mini-Project 3: Group Project
 * We're essentially going to redo all the same steps we did in Mini-Project 2, but add one more step. 
 
 ### Step 1: Re-clone Your Fork
