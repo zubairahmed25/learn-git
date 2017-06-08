@@ -138,7 +138,7 @@ In this step, we will fork this tutorial repository.
 ### Instructions
 
 * On this current GitHub repository, scroll to the top and look for a button that says `fork`.
-* Click the `fork` button`.
+* Click the `fork` button.
   * <details>
 
     <summary> What does this do? </summary>
@@ -182,34 +182,46 @@ In this step, we will make changes to our clone and push them to GitHub.
 * Open the folder in your coding IDE.
 * Make a change in a file.
 * Run through the steps outlined in `Step 3` of the first project ( status, diff, add, commit, push ).
-  * Since you've clonved this repository, it is already pointing to your forked version. Therefore you don't need to tell your computer where to push the code.
+  * Since you've cloned this repository, it is already pointing to your forked version. Therefore, you don't need to tell your computer where to push the code.
 
 ## Mini-Project 3: Group Project
-* We're essentially going to redo all the same steps we did in Mini-Project 2, but add one more step. 
 
-### Step 1: Re-clone Your Fork
+## Step 1
 
-Note: to re-clone your fork, you must do one of three things: 
-1. Delete the folder on your computer, or
-2. Rename the folder on your computer, or
-3. Rename the second clone by doing ```git clone [repo url] [new folder name]```
-If you do not do one of these three things, when you try to do a git clone, it will give you an error saying it already exists.
+### Summary
 
-* Re-clone your fork of this project to your local computer, make a change, add, commit, then push that change. 
+To help this process stick in memory we are going to repeat the process of the second project. We'll delete our current fork on our machine and restart the process.
 
-* Go to your forked repo on GitHub and verify your change is there. 
+### Instructions
 
-Let's imagine we're working in groups. If we have everyone pushing to one repo without verifying the quality of the code, things can get messy pretty quick. GitHub fixed this solution with 'Pull Requests.' Basically, you fork a project, make changes to your fork, then you make a Pull Request (PR) back into the original project requesting that some piece of code be added to the original repo. This is how the vast majority of open source code projects work.
+* Delete the folder on your Desktop that is the forked repository.
+* Re-clone the fork to your desktop.
+* Make a change to any file.
+* Run through the process of pushing to GitHub ( status, diff, add, commit, push ).
 
-### Step 2: Make the PR
-* Go to your forked repo on github and click where it says 'Pull Request', and click 'New pull request'. It should show you the file changes you've made and how they differ from the original repo. If it does, click on the 'create pull request' button to submit your pull request. 
-* Now, I should see your pull request and I can decide if I want to add that code into the main project or not.
+## Step 2
+
+### Summary
+
+Here is where things start to get different. Let's imagine we're working in groups. If we have everyone pushing to one repo without verifying the quality of the code, things can get messy pretty quick. GitHub fixed this solution with 'Pull Requests.' Basically, you fork a project, make changes to your fork, then you make a Pull Request (PR) back into the original project requesting that some piece of code be added to the original repo. This is how the vast majority of open source code projects work. In this step, we will make a pull-request.
+
+### Instructions
+
+* Go to your forked repo on GitHub.
+* Locate the button that says `Pull Request` and click it.
+* Locate the green button that says `New pull request` and click it.
+  * You should now see the file changes you've made and how they differ from the original repo.
+* Click on the `Create pull request` button to submit your PR.
+* Now if you navigate to the <a href="https://github.com/DevMountain/learn-git/pulls">original repository</a> and take a look at the `Pull Requests` yours should be there.
 
 ## Contributions
+
 If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
 
 ## Copyright
 
-© DevMountain LLC, 2015. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
+© DevMountain LLC, 2017. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
 
+<p align="center">
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250">
+</p>
