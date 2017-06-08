@@ -1,9 +1,7 @@
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
 
-learn-git
-=========
+# Project Summary
 
-## Objective
 Practice using git + Github
 
 This project will consist of three separate mini-projects to get you comfortable with the kinds of activities you'll be using git for throughout the class. 
@@ -16,14 +14,57 @@ Finally, in the last mini-project you'll be mimicking the steps you'll take duri
 
 ## Mini-Project 1: Personal Project
 
-### Step 1: Create a Repository on Github
-Let's jump ahead a month or two and pretend like we just reached personal projects. You're going to be pushing your code up to GitHub frequently. In order to do that, you first need to create a repository on GitHub to push to. Head over to your GitHub account, then in the top right-hand corner click the '+' button and click 'New repository'. Enter the name of your repository then click 'Create Repository'. Do NOT initialize the repository with a README. This repository is where your code for this project will now live.
+## Step 1
 
-### Step 2: Set up the Origin
-Once you create your repository, you'll need to connect that repository with your code on your computer. 
-* Create a folder called 'myProject' then inside that folder create a file called 'myName.js'. Add your name to that file and then save it. 
-* Now in your terminal, navigate to your 'myProject' folder. Once inside that folder, type `git init`. You've just told your computer that you want git to watch the 'myProject' folder and keep track of any changes; basically making it so you can now run git commands inside of this folder.  (Warning:  Be very careful to make sure you're in the right directory when you run `git init`!)
-* Now that you've initialized your 'myProject' folder, we need to tell your computer where the location of your GitHub repository is. To do this you'll create what is called a remote. Basically, we tell our computer "Hey, I created this repo on GitHub, so when I push, I want my code to go to this GitHub repo." To do this, in your terminal type `git remote add origin [Repository URL]` replacing [Repository URL] with your repo's url.  To get the url, open the repository you made in step 1 in the browser.  Then copy the url out of the address bar. Now whenever you run `git push origin master` your computer knows that origin is pointing to your repo you made on GitHub and it pushes your changes there. (If you accidentally DID initialize your repository with a README, you must do a `git pull origin master` first - to get the README file on your computer - before you'll be able to push.) 
+### Summary
+
+In this step we will create a repository on GitHUB.
+
+### Instructions
+
+* Go to <a href="https://github.com/">GitHub</a>.
+* Sign in to GitHub.
+* On the right side of the page, click on the green `New repository` button.
+* Give your repository any name you like and make sure that the repository is public.
+* Also make sure that the `Initialize this repository with a README` is <b>NOT<b> checked.
+
+## Step 2
+
+### Summary
+
+In this step we will setup the origin for the repository. We'll do this by connecting code on our computer to the GitHub repository we just created.
+
+### Instructions
+
+* Create a folder called `myProject`.
+* Go into that folder.
+* Create a file called `myName.js` and add your name to that file.
+* Save the file and open a terminal window.
+* In your terminal window, `cd` to your `myProject` folder. O
+* Run `git init`. 
+  * <details>
+
+    <summary> What just happened? </summary>
+
+    <br />
+
+    You've just told your computer that you want git to watch the `myProject` folder and to keep track of any changes. This also allows us to run git commands inside of the folder. (Warning:  Be very careful to make sure you're in the right directory when you run `git init`!)
+
+    </details>
+* Run `git remote add origin [Repository URL goes here]`. You can get your URL from going to repository you made earlier in your browser and copying the address.
+  * <details>
+
+    <summary> What just happened? </summary>
+
+    <br />
+
+    Basically, we tell our computer "Hey, I created this repo on GitHub, so when I push, I want my code to go to this GitHub repo." Now whenever you run `git push origin master` your computer knows that origin is pointing to your repo you made on GitHub and it pushes your changes there.
+
+    <br />
+
+    ( If you accidentally DID initialize your repository with a README, you must do a `git pull origin master` first - to get the README file on your computer - before you'll be able to push. ) 
+
+    </details>
 
 ### Step 3: Push your code to GitHub
 Now that our remote is set up, you'll need to add your files to the staging area, commit your files to be ready for pushing, then push your files. 
