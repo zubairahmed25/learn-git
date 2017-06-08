@@ -26,7 +26,7 @@ In this step we will create a repository on GitHUB.
 * Sign in to GitHub.
 * On the right side of the page, click on the green `New repository` button.
 * Give your repository any name you like and make sure that the repository is public.
-* Also make sure that the `Initialize this repository with a README` is <b>NOT<b> checked.
+* Also make sure that the `Initialize this repository with a README` is <b>NOT</b> checked.
 
 ## Step 2
 
