@@ -66,18 +66,66 @@ In this step we will setup the origin for the repository. We'll do this by conne
 
     </details>
 
-### Step 3: Push your code to GitHub
-Now that our remote is set up, you'll need to add your files to the staging area, commit your files to be ready for pushing, then push your files. 
+## Step 3: Push your code to GitHub
 
-This usually looks like this:
+### Summary
 
-1. `git status` --> this will show what files have been changed. We want to make sure not to add any files to GitHub that we don't want there.
-2. `git diff` this will show the actual code that has been changed. Again, we want to make sure we don't push anything to GitHub that shouldn't be there.
-3. If everything looks good, `git add nameOfMyFile.js` This adds our file(s) to the 'staging area'
-4. `git commit -m "The sentence I want associated with this commit message"` which tells your computer 'hey, next time code is pushed to GitHub, take all of this code with it.'
-5. `git push origin master` My code is now on GitHub. Be sure to include `origin master`, as this tells GitHub which branch you want to push to, and creates the branch if it doesn't exist yet.
+In this step, we will push code to GitHub.
 
-* If you did this correctly, check your GitHub repository for your new code.
+### Instructions
+
+* Open a terminal window and make sure it is in the directory of `myProject`.
+* Run `git status`.
+  * <details>
+
+    <summary> What does this do? </summary>
+
+    <br />
+
+    This will show what files have been changed. This also helps us determine what files we want to add to GitHub and what files we don't want to add to GitHub.
+
+    </details>
+* Run `git diff`.
+  * <details>
+
+    <summary> What does this do? </summary>
+
+    <br />
+
+    This will show the actual code that has been changed. Again, we want to make sure we don't push anything to GitHub that shouldn't be there.
+
+    </details>
+* Run `git add nameOfMyFile.fileExtension`.
+  * <details>
+
+    <summary> What does this do? </summary>
+
+    <br />
+
+    This adds our file(s) to the 'staging area'. This is basically a fail safe if you accidentially add something you don't want. You can view items that our staged by running `git status`.
+
+    </details>
+* Run `git commit -m "The sentence I want associated with this commit message"`.
+  * <details>
+
+    <summary> What does this do? </summary>
+
+    <br />
+
+    This tells your computer: 'Hey, the next time code is pushed to GitHub, take all of this code with it.' The message also specifies what GitHub will display in relation to this commit.
+
+    </details>
+* Run `git push origin master`
+  * <details>
+
+    <summary> What does this do? </summary>
+
+    <br />
+
+    Your code is now pushed to GitHub. Be sure to include `origin master`, as this tells GitHub which branch you want to push to, and creates the branch if it doesn't exist yet.
+
+    </details>
+* Go to your repository on GitHub and see your updates.
 
 ##Mini-Project 2: DevMountain Project
 * Now what we're going to do is walk through how you would normally treat a day's project here at DevMountain. 
